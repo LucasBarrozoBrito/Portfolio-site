@@ -1,0 +1,26 @@
+@charset "UTF_8";
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap');
+
+/* font-family: 'Barlow Condensed', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded&display=swap');
+
+/* font-family: 'Encode Sans Expanded', sans-serif; */
+
+:root{
+    --color1:#0E0F19;
+    --color2:#84ACCE;
+    --color3:#EF3E36;
+    --color4:#2E5266;
+    --color5:#1CFEBA;
+    --color6:#ffffff;
+
+
+
+}
+
+main{
+    
+    width:600px;
+}
