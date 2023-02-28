@@ -1,0 +1,83 @@
+@charset "UTF_8";
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap');
+
+/* font-family: 'Barlow Condensed', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded&display=swap');
+
+/* font-family: 'Encode Sans Expanded', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+/* font-family: 'Source Code Pro', monospace;  */
+
+:root{
+    --color1:#0E0F19;
+    --color2:#84ACCE;
+    --color3:#EF3E36;
+    --color4:#2E5266;
+    --color5:#1CFEBA;
+    --color6:#ffffff;
+
+
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+
+main{
+    min-width: 98,5vw;
+    min-height: 100vh;
+    background-color: var(--color5);
+}
+
+.page2{
+    background-color: var(--color5);
+}
+
+
+
+.c-item{
+    height: 400px;
+
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+
+
+}
+
+img{
+    height: 100%;
+    object-fit: cover;
+}
+
+h5, p{
+    color: var(--color1);
+}
+
+
+
+footer{
+    color: var(--color6);
+    text-align: center;
+    min-width:98,5vw;
+    height: 35px;
+    background-color:#212529;
+    padding:-27px;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: var(--color6);
+}
+/*Pagina 2 - projetos/Fim*/
