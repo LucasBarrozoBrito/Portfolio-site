@@ -23,28 +23,32 @@
 
 }
 
+
 *{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
     padding: 0px;
-   
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 
-main{
-    min-width: 98,5vw;
-    min-height: 100vh;
-    background-color: var(--color5);
+.text{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700px ;
+    font-size: 5rem;
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 2rem 4rem;
+    
+
 }
 
-/* gradient */
 .gradient{
-    /* display: flex;
+    display: flex;
     align-items: center;
-    justify-content: center; */
-    /* height: 100vh; */
+    justify-content: center;
+    height: 100vh;
     width: 98,5vw;
-    background: linear-gradient(45deg, #0e0f19,#128d68, #203a48);
+    background: linear-gradient(45deg,#0E0F19, #2E5266, #EF3E36);
     background-size: 300% 300%;
     animation: colors 15s ease infinite;
 }
@@ -67,49 +71,6 @@ main{
 }
 
 
-/* fim */
-
-.page2{
-    background-color: var(--color5);
-}
-
-
-
-.c-item{
-    height: 400px;
-    
-
-}
-
-.c-img{
-    height: 100%;
-    object-fit: cover;
-    filter: brightness(0.6);
-    
-
-
-}
-/* 
-#hero-carousel{
-    margin: auto;
-    margin-top: -10px;
-    /* padding: 15px ; */
-    
-    /* margin-top: 50px; 
-}
-
-*/
-
-
-img{
-    height: 100%;
-    object-fit: cover;
-}
-
-h5, p{
-    color: var(--color1);
-}
-
 
 
 footer{
@@ -121,12 +82,7 @@ footer{
     padding:-27px;
 }
 
-footer > p{
-    color: var(--color6);
-}
-
 footer > p > a{
     text-decoration: none;
     color: var(--color6);
 }
-/*Pagina 2 - projetos/Fim*/
